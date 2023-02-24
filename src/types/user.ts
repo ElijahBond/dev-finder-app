@@ -14,7 +14,7 @@ export type LocalGithubUser = {
     created: string
 }
 
-export type GithunUser = {
+export type GithubUser = {
     login: string,
     id: number,
     avatar_url: string,
