@@ -9,7 +9,7 @@ interface SearchProps {
   onSubmit: (text: string) => void
 }
 
-// seatch with Ref
+// seatch with Ref !!!
 
 export const Search = ({hasError, onSubmit }: SearchProps) => {
   const searchRef = useRef<HTMLInputElement | null>(null);
