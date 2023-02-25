@@ -1,3 +1,4 @@
+import { UserInfo } from 'components/UserInfo';
 import { UserStat } from 'components/UserStat';
 import { UserTitle } from 'components/UserTitle';
 import { LocalGithubUser } from 'types';
@@ -26,6 +27,12 @@ export const UserCard = (props: UserCardProps) => {
         followers={props.followers}
         following={props.following}
         />
+        <UserInfo 
+          blog={props.blog}
+          company={props.company}
+          location={props.location}
+          twitter={props.twitter}
+          />
     </div>
   );
 };
